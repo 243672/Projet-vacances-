@@ -66,14 +66,53 @@ a{
     height: 560px;
     float: right;
 }
+#titre1{
+    align-self: flex-start;
+}
 h3{
     color: white;
-    text-align: left;
+    font-size: 15px;
+    margin: 4px;
+    margin-bottom: 20px;
+    opacity: 0.7;
+
 }
-#Mon{
+.Mon{
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    height: 60px;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
 }
-#sol{
-    width: 30px;
+.Monday{
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    opacity: 0.3;
 }
+
+.sol{
+    width:40px;
+    height: 40px; 
+    position: relative;
+    top: 6px;
+}
+.sunny{
+    color: white;
+    font-family: 'Trebuchet MS';
+    position: relative;
+    right: 50px;
+}
+.d36{
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+}
+.d22{
+    color: white;
+    font-family: 'Trebuchet MS';
+    opacity: 0.6;
+}
+.wekk{
+    margin-right: 27px;
+} 
