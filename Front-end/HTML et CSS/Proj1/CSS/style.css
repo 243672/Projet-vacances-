@@ -4,6 +4,7 @@ body{
 }
 .contenu{
     display: flex;
+    width: 100%;
 
 }
 #left{
@@ -16,14 +17,15 @@ body{
     width: 5%;
     height: 560px;
     float: left;
+    padding: 4px;
 
 }
 img[alt="wind"]{
-    background-color: white;
+    background-color: rgba(161, 149, 149, 0.29);
     border-radius: 8px;
     margin-bottom: 100px;
-    opacity: 0.6;
     margin-top: 10px;
+    padding: 4px;
 }
 .im1{
     width: 25px;
@@ -33,15 +35,17 @@ img[alt="wind"]{
 }
 a{
     text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
     font-size: 10px;
     color:white;
     text-align: center;
     margin:auto;
 }
 .im2:hover{
-    background-color: white;
-    border-radius: 12px;
-    opacity: 0.3;
+    background-color: rgba(255, 255, 255, 0.235);
+    border-radius: 5px;
+    padding: 4px;
 }
 .crii{
     vertical-align: auto;
@@ -49,39 +53,32 @@ a{
     margin-bottom: 15px;
     text-align: center;
 }
-/* #center{
-    margin: 5px;
-    background-color: rgba(256, 256, 256, 1.0);
-    width: 65%;
-    height: 560px;
-} */
+
 #right{
     display: flex;
     align-items: center;
     flex-direction: column;
     border-radius: 10px;
-    margin: 5px;
+    margin: 40px 5px 5px 5px;
     background-color: rgba(256, 256, 256, 0.2);
     width: 35%;
-    height: 560px;
+    height: 540px;
     float: right;
 }
-#titre1{
+.titre1{
     align-self: flex-start;
 }
 h3{
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 15px;
     margin: 4px;
     margin-bottom: 20px;
-    opacity: 0.7;
-
 }
 .Mon{
     display: flex;
     justify-content: space-between;
     width: 90%;
-    height: 60px;
+    height: 70px;
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.4);
 }
 .Monday{
@@ -116,3 +113,102 @@ h3{
 .wekk{
     margin-right: 27px;
 } 
+
+/* Le milieu de page  */
+#center{
+    width: 60%;
+}
+#search{
+    background-color: rgba(241, 234, 234, 0.3);
+    width: 98%;
+    border-radius: 10px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+}
+#search::placeholder{
+    color: white;
+    padding: 5px;
+}
+#main{
+    width: 98%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#sol1{
+    width: 30%;
+    height: auto;
+    float: right;
+    margin: 8px 0 0 8px;
+}
+
+#day{
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin-left:15px;
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+#chrain{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.397);
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    margin: 4px 0px 0px 15px;
+}
+#deg{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    margin: 40px 0px 0px 17px;
+}
+#main1{
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 15px;
+    border-radius: 10px;
+    height: 180px;
+}
+.met h3{
+    padding: 20px 0px 0px 20px;
+    font-size: 10px;
+}
+#metday{
+    display: flex;
+    flex-direction: row;
+}
+.ous{
+    margin-left: 40px;
+}
+.daymet{
+    width: 90px;
+    border-right: 2px rgba(255, 255, 255, 0.3) solid;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pho{
+    width: 50px;
+    height: auto;
+    margin: 0px;
+
+}
+.time{
+    width: 60px;
+    margin: 0 0 8px 0;
+    color: white;
+    font-size: x-small;
+    font-family: 'Trebuchet MS';
+}
+.deg1{
+    margin: 8px 0 0 0;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+}
