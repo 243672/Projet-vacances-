@@ -1,0 +1,78 @@
+/*--------------------------------------------
+
+---------------------------------------------*/
+
+
+body{
+    background-color: #1C584C;
+    background-image: url(../image/backgroud/backgroud\ image.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    height: 600px;
+    
+}
+
+header div a .logo{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+    margin: 35%;
+    margin-left: 40px;
+}
+header{
+    margin: 30px auto;
+    display: flex;
+    background-color: rgba(230, 230, 230, 0.5);
+    /* background-color: rgba(00, 00, 00, 0.4); */
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 60.5px;
+    border-radius: 10px;
+    /* box-shadow: 3px 5px 15px rgba(0, 0, 0, 0.5); */
+    box-shadow:
+    inset 4px 4px 8px rgba(0,0,0,0.25),   /* ombre interne bas/droite */
+    inset -4px -4px 8px rgba(255,255,255,0.7), /* lumière interne haut/gauche */
+    6px 6px 18px rgba(0,0,0,0.12);  
+}
+.navbar3{
+    display: flex;
+    align-items: center;
+    justify-content: row;
+    margin-right: 40px;
+}
+.navbar3 label{
+    color: white;
+}
+#sch-head{
+    border-radius: 5px;
+    border: none;
+    margin: 2px;
+
+}
+#sch-head::placeholder{
+    color: black;
+    text-align: right;
+}
+#sch-head:focus{
+    border: none;
+    outline: none;
+
+
+}
+.navbar2 a{
+    color: white;
+    font-family: 'POLY',sans-serif;
+    padding: 0 5px 0 5px ;
+    text-decoration: none;
+}
+.navbar2 a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.navbar3 img{
+    max-height:20px;
+    width: auto;
+    margin: 5px;
+}
