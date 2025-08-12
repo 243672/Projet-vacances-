@@ -5,8 +5,11 @@ Structure principale en deux parties :
 Header avec logo à gauche, navigation et barre de recherche à droite.
 Effets visuels : ombres internes/externes, coins arrondis, flexbox pour l’alignement.
 -------------------------------------------------------------------------------------*/
-
 body{
+    width: 100%;
+    margin: 0 auto;
+}
+.contenair-one{
     width: 100%;
     display: flex;
     margin: 0 auto;
@@ -168,3 +171,23 @@ header{
     left: 90%;
     bottom: 51%;
 }
+#point .pointdep{
+    margin: 7px;
+    width: 10px;
+    height:6px;
+    border-radius: 50%;
+    background-color: #776f6f;
+}
+.Active{
+    border: 0.2px solid cyan;
+}
+#point{
+    position: relative;
+    bottom: 29%;
+    left: 97%;
+    display: flex;
+    width: 80px;
+    height: 10px;
+}
+
+
